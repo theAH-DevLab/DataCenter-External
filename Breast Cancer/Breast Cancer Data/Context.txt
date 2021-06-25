@@ -1,0 +1,39 @@
+Context
+We want to find out if the patient has a Benign or malignant tumor
+We have three datasets with the same features and target, but for three categories such as
+• The patients who are under treatment
+• The patients who are recovered
+• The patients who died
+
+The features could be described as bellow:
+
+patient_id: the id of the patient
+gender: the gender of the patient which “Female” is 0 and “Male” is 1
+education: the education levels of the patient which Illiterate=0, Elementary= 1, Middle School =2 , High School =3 , Diploma = 4, Associate =5 , Bachelor =6 , Master = 7
+-treatment_date = the date(year) which the patient would receive the treatment
+id_healthcenter:: is the id for the healthcare center
+idtreatmentregion: the region which the patient would receive the treatment
+hereditary_history: the patient has the hereditary history of disease which 1 means “Yes” and 0 means “No”
+birth_date: birth date (year) of the patient
+age: the age of the patient
+weight: the weight of the patient
+thickness_tumor: the thickness of the tumor detected in the patient body
+marital_status: the marital status of the patient includes : 1 means married and 0 means single
+marital_length: the age of the martial status includes 0 means under 10 years, 1 means above 10 years
+pregnency_experience: the patient has the pregnancy experience which 0 means has not experience and 1 means has experience
+giving_birth: the patient has experienced giving the birth. Each number means the number of giving birth
+age_FirstGivingBirth : in which age the patient has the first experience of giving a birth, which before age 30 equals 0 and after age 30 equals 1
+abortion: the patient has experience of abortion which 0 means has not and 1 means has
+blood: the types of bloods A+ =0, A- = 1, AB+ = 2, AB- = 3, B+ = 4, B- = 5, O+ = 6, O- = 7
+taking_heartMedicine: it says if the patient takes the heart medicine or not which 0 means does not and 1 means does
+takingbloodpressure_medicine: it says if the patient takes the blood pressure or not which 0 means does not and 1 means does
+takinggallbladderdisease_medicine: it says the patient takes the gallbladder medicine or not which 0 means does not and 1 means does
+smoking: it says if the patient smokes or not which 0 means does not and 1 means does
+alcohol: it says if the patient drinks alcohol or not which 0 means does not and 1 means does
+breast_pain: if the patient has pain in breast part which 0 means has not and 1 means has
+radiation_history: if the patient has experience with radiation in breast area which 0 means has not and 1 means has
+Birth_control(Contraception): the patient takes actions for birth control which 0 means does not and 1 means does
+menstrual_age: at which age the patient starts natural menstrual which 0 means the patient does not start menstrual, 1 means under age 12, and 2 means above age 12
+menopausal_age: at which age the patient starts natural menopausal which 0 means does not starts, 1 means at under age 50, and 2 means above age 50
+condition: the condition of the patient which categorized into different categories such as under treatment, recovered, death
+Benignmalignanttumor: is the target of our datasets, the type of tumor which Benign is 0 and malignant is 1
