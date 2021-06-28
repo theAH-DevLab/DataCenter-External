@@ -1,0 +1,8 @@
+Context
+The Project Tycho database was named after the Danish nobleman Tycho Brahe, who is known for his detailed astronomical and planetary observations. Tycho was not able to use all of his data for breakthrough discoveries, but his assistant Johannes Kepler used Tycho's data to derive the laws of planetary motion. Similarly, this project aims to advance the availablity of large scale public health data to the worldwide community to accelerate advancements in scientific discovery and technological progress.
+
+Content
+The Project Tycho database (level one) includes standardized counts at the state level for smallpox, polio, measles, mumps, rubella, hepatitis A, and whooping cough from weekly National Notifiable Disease Surveillance System (NNDSS) reports for the United States. The time period of data varies per disease somewhere between 1916 and 2010. The records include cases and incidence rates per 100,000 people based on historical population estimates. These data have been used by investigators at the University of Pittsburgh to estimate the impact of vaccination programs in the United States, recently published in the New England Journal of Medicine.
+
+Acknowledgements
+The Project Tycho database was digitized and standardized by a team at the University of Pittsburgh, including Professor Wilbert van Panhuis, MD, PhD, Professor John Grefenstette, PhD, and Dean Donald Burke, MD.
